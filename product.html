@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>product</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<style>
+
+</style>
+</head>
+<body>
+<div class="container">
+  <h1>SARI</h1>
+  <div class="row"  id="sari">
+</div>
+</div>
+<!--sari-->
+<script>
+	 $(document).ready (function (){
+  var sari=[{"name":"Er099","category":"ring","price":"3000","image":"images/sari/sari1.jpg"},
+{"name":"Er098","price":"25,000","image":"images/sari/sari2.jpg"},
+{"name":"Er087","price":"20,000","image":"images/sari/sari3.jpg"},
+{"name":"Er065","price":"10,000","image":"images/sari/sari6.jpg"},
+{"name":"Er043","price":"15,000","image":"images/sari/sari4.jpg"},
+{"name":"Er021","price":"10,000","image":"images/sari/sari5.jpg"}];
+
+  for(var s=0;s<sari.length;s++)
+{
+	  $('#sari').append("<div class='col-md-4' ><div class='thumbnail'><img src='"+sari[s].image+"' alt='Lights' style='width:100%; height:400px'><div class='caption'><h1>"+sari[s].name+"</h1><h3>"+sari[s].category+"</h3><h4>"+sari[s].price+"</h4></div></div></div>");
+	  }
+  });
+ </script>
+
+ <!--pentshirt-->
+ <div class="container">
+  <h1>PENT SHIRTS </h1>
+  <div class="row" id="shirt">
+</div>
+</div>
+
+<script>
+	 $(document).ready (function (){
+  var shirt=[{"name":"Ps12","price":"4000","image":"images/shirts/pentshirt1.jpg"},
+{"name":"Ps34","price":"3000","image":"images/shirts/pentshirt2.jpg"},
+{"name":"Ps56","price":"1000","image":"images/shirts/pentshirt3.jpg"},
+{"name":"Ps78","price":"2000","image":"images/shirts/pentshirt4.jpg"},
+{"name":"Ps90","price":"1000","image":"images/shirts/pentshirt5.jpg"},
+{"name":"Ps19","price":"2500","image":"images/shirts/pentshirt6.jpg"}];
+
+  for(var p=0;p<shirt.length;p++)
+{
+	  $('#shirt').append("<div class='col-md-4' ><div class='thumbnail'><img src='"+shirt[p].image+"' alt='Lights' style='width:100%; height:400px'><div class='caption'><h1>"+shirt[p].name+"</h1><h3>"+shirt[p].category+"</h3><h4>"+shirt[p].price+"</h4></div></div></div>");
+	  }
+  });
+ </script>
+
+ <!--skirts-->
+ <div class="container">
+  <h1> SKIRTS </h1>
+  <div class="row" id="skirt">
+</div>
+</div>
+
+<script>
+	 $(document).ready (function (){
+  var skirt=[{"name":"Ps12","price":"4000","image":"images/skirts/s1.jpg"},
+{"name":"Sk21","price":"5000","image":"images/skirts/s2.jpg"},
+{"name":"Sk43","price":"3000","image":"images/skirts/s3.jpg"},
+{"name":"Sk65","price":"2500","image":"images/skirts/s4.jpg"},
+{"name":"Sk87","price":"1500","image":"images/skirts/s5.jpg"},
+{"name":"Sk09","price":"1200","image":"images/skirts/s6.jpg"}];
+
+  for(var t=0;t<skirt.length;t++)
+{
+	  $('#skirt').append("<div class='col-md-4' ><div class='thumbnail'><img src='"+skirt[t].image+"' alt='Lights' style='width:100%; height:400px'><div class='caption'><h1>"+skirt[t].name+"</h1><h3>"+skirt[t].category+"</h3><h4>"+skirt[t].price+"</h4></div></div></div>");
+	  }
+  });
+ </script>
+
+<!--salwarkameez-->
+ <div class="container">
+  <h1> SALWAR KAMEEZ </h1>
+  <div class="row" id="salwarkameez">
+</div>
+</div>
+
+<script>
+	 $(document).ready (function (){
+  var salwarkameez=[{"name":"Sk312","price":"4000","image":"images/salwarkameez/salwarkameez1.jpg"},
+{"name":"Sk321","price":"2000","image":"images/salwarkameez/salwarkameez2.jpg"},
+{"name":"Sk343","price":"1500","image":"images/salwarkameez/salwarkameez3.jpg"},
+{"name":"Sk365","price":"2500","image":"images/salwarkameez/salwarkameez4.jpg"},
+{"name":"Sk387","price":"1600","image":"images/salwarkameez/salwarkameez5.jpg"},
+{"name":"Sk309","price":"1400","image":"images/salwarkameez/salwarkameez6.jpg"}];
+
+  for(var k=0;k<salwarkameez.length;k++)
+{
+	  $('#salwar').append("<div class='col-md-4' ><div class='thumbnail'><img src='"+salwarkameez[k].image+"' alt='Lights' style='width:100%; height:400px'><div class='caption'><h1>"+salwarkameez[k].name+"</h1><h3>"+salwarkameez[k].category+"</h3><h4>"+salwarkameez[k].price+"</h4></div></div></div>");
+	  }
+  });
+ </script>
+
+ <!--langha-->
+ <div class="container">
+  <h1> LANGHA </h1>
+  <div class="row" id="langha">
+</div>
+</div>
+
+<script>
+	 $(document).ready (function (){
+  var langa=[{"name":"Ln412","price":"40,000","image":"images/langha/L1.jpg"},
+{"name":"Ln421","price":"20,000","image":"images/langha/L2.jpg"},
+{"name":"Ln443","price":"15,000","image":"images/langha/L3.jpg"},
+{"name":"Ln465","price":"25,000","image":"images/langha/L4.jpg"},
+{"name":"Ln487","price":"16,000","image":"images/langha/L5.jpg"},
+{"name":"Ln409","price":"14,000","image":"images/langha/L6.jpg"}];
+
+  for(var l=0;l<langha.length;l++)
+{
+	  $('#salwar').append("<div class='col-md-4' ><div class='thumbnail'><img src='"+langha[l].image+"' alt='Lights' style='width:100%; height:400px'><div class='caption'><h1>"+langha[l].name+"</h1><h3>"+langha[l].category+"</h3><h4>"+langha[l].price+"</h4></div></div></div>");
+	  }
+  });
+ </script>
+</body>
+</html>
